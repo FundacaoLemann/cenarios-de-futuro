@@ -20,12 +20,14 @@ O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasi
 <br>
 <hr>
 <div class='item'>
-<p>O QUE SÃO CENÁRIOS
-
+<p><b>O QUE SÃO CENÁRIOS?</b><p>
+<p>
 Cenários são histórias que descrevem o que poderia acontecer no futuro, e não o que acontecerá (previsões) ou o que deveria acontecer (recomendações). Construir cenários é um exercício de suspender nossos desejos e nossas respostas, olhar para além de nossas previsões e projeções e nos abrir para pensar uma variedade de futuros possíveis
-
+</p>
+<p>
 O valor desse exercício está em proporcionar uma experiência compartilhada que questiona abertamente nossos pressupostos, contribuindo para o debate público, para inspirar, estimular e informar estratégias, decisões e ações que influenciem a realidade da educação e tecnologia no Brasil. Os cenários, por serem resultado de um processo coletivo de perspectivas diversas, oferecem a vantagem de apoiar os debates sem comprometimento com uma determinada posição. Os cenários nos permitem lidar com o fato de que, embora não possamos prever ou controlar o futuro, podemos trabalhá-lo e influenciá-lo.
-
+</p>
+<p>
 O planejamento de cenários transformadores tem sido usado nos últimos 25 anos em contextos diversos e complexos. Por exemplo, na transição do apartheid na África do Sul, nos momentos de maior conflito na Colômbia, no pós-guerra civil na Guatemala e na questão das drogas nas Américas num momento de grande incerteza e debate.
 </p>
 </div>
