@@ -19,7 +19,7 @@ O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasi
 
 <br>
 <hr>
-<div class="item">
+<span class="item">
 
 <p><b>O QUE SÃO CENÁRIOS?</b><p>
 
@@ -33,4 +33,4 @@ O valor desse exercício está em proporcionar uma experiência compartilhada qu
 
 <p>
 O planejamento de cenários transformadores tem sido usado nos últimos 25 anos em contextos diversos e complexos. Por exemplo, na transição do apartheid na África do Sul, nos momentos de maior conflito na Colômbia, no pós-guerra civil na Guatemala e na questão das drogas nas Américas num momento de grande incerteza e debate.
-</p></div>
+</p></span>
