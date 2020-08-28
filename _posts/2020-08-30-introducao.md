@@ -15,7 +15,7 @@ Entre abril e maio de 2020, cada uma dessas pessoas foi entrevistada individualm
 
 Foi uma das primeiras experiências de construção de Cenários Transformadores de Futuro à distância do mundo. Todo o trabalho se desenvolveu sem qualquer reunião presencial. Recorreu-se, para isso, a duas plataformas principais de trabalho colaborativo à distância, o Zoom e o Mural.
 
-O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasil Pós Pandemia. Esperamos que esse exercício coletivo contribua para enriquecer e estimular o debate público e o planejamento de ações em diferentes lugares – das escolas e comunidades a institutos e fundações, das secretarias municipais e estaduais à sociedade em geral –, qualificando com isso a inter relação entre a educação e a tecnologia na educação básica do país.
+O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasil Pós Pandemia. Esperamos que esse exercício coletivo contribua para enriquecer e estimular o debate público e o planejamento de ações em diferentes lugares – das escolas e comunidades a institutos e fundações, das secretarias municipais e estaduais à sociedade em geral –, qualificando com isso a inter-relação entre a educação e a tecnologia na educação básica do país.
 
 <br>
 <hr>
