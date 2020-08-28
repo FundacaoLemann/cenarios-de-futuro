@@ -1,3 +1,24 @@
 p {
     background-color: #fafafa;
 }
+
+.triple .item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: normal;
+    width: calc(100% - 12px);
+    white-space: initial;
+    padding: 6px 10px;
+}
+
+.triple h3 {
+    color: var(--cf-accent);
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    border-bottom: 3px dotted var(--cf-accent);
+}
+
+.button {
+    white-space: nowrap;
+}

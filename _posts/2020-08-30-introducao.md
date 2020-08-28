@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Nossas Certezas para 2023"
+title: "Introdução"
 ---
-
-## Introdução
-
 
 A Fundação Lemann identificou em 2019 a oportunidade de construir cenários de futuro para a inovação e a tecnologia na básica educação brasileira. A ideia era gerar uma ferramenta poderosa para o posicionamento estratégico da organização e de outras nesse campo.
 
@@ -30,4 +27,3 @@ O valor desse exercício está em proporcionar uma experiência compartilhada qu
 
 O planejamento de cenários transformadores tem sido usado nos últimos 25 anos em contextos diversos e complexos. Por exemplo, na transição do apartheid na África do Sul, nos momentos de maior conflito na Colômbia, no pós-guerra civil na Guatemala e na questão das drogas nas Américas num momento de grande incerteza e debate.
 </span>
-
