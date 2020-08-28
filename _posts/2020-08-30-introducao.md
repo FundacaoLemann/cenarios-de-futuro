@@ -17,8 +17,9 @@ Foi uma das primeiras experiências de construção de Cenários Transformadores
 
 O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasil Pós Pandemia. Esperamos que esse exercício coletivo contribua para enriquecer e estimular o debate público e o planejamento de ações em diferentes lugares – das escolas e comunidades a institutos e fundações, das secretarias municipais e estaduais à sociedade em geral –, qualificando com isso a inter relação entre a educação e a tecnologia na educação básica do país.
 
-
-<span class='item button'>
+<br>
+<hr>
+<span class='item'>
 O QUE SÃO CENÁRIOS
 
 Cenários são histórias que descrevem o que poderia acontecer no futuro, e não o que acontecerá (previsões) ou o que deveria acontecer (recomendações). Construir cenários é um exercício de suspender nossos desejos e nossas respostas, olhar para além de nossas previsões e projeções e nos abrir para pensar uma variedade de futuros possíveis
