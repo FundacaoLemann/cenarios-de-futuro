@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Cenários Futuros para a Educação e Tecnologias no Brasil pós pandemia"
+title: "Introdução"
 ---
-
-## Introdução
-
 
 A Fundação Lemann identificou em 2019 a oportunidade de construir cenários de futuro para a inovação e a tecnologia na básica educação brasileira. A ideia era gerar uma ferramenta poderosa para o posicionamento estratégico da organização e de outras nesse campo.
 
