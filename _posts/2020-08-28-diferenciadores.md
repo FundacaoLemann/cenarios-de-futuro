@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diferenciadores Estruturais"
+title: "🔎 Diferenciadores Estruturais"
 ---
 
 
