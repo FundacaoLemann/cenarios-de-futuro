@@ -1,0 +1,147 @@
+<script>
+    // logo/header scaling
+;(function(){
+  var scrollActive = false,
+    THRESHOLD = 20,
+    layout = throttle(function(){
+      if ((document.body.scrollTop || window.scrollY) > THRESHOLD && !scrollActive) {
+        document.body.classList.add('scrolled')
+        scrollActive = true
+      } else if ((document.body.scrollTop || window.scrollY) <= THRESHOLD && scrollActive) {
+        document.body.classList.remove('scrolled')
+        scrollActive = false
+      }
+    }, 250)
+
+  function throttle(fn, threshold, scope) {
+    threshold || (threshold = 250);
+    var last,
+        deferTimer;
+    return function () {
+      var context = scope || this;
+
+      var now = +new Date,
+          args = arguments;
+      if (last && now < last + threshold) {
+        clearTimeout(deferTimer);
+        deferTimer = setTimeout(function () {
+          last = now;
+          fn.apply(context, args);
+        }, threshold + last - now);
+      } else {
+        last = now;
+        fn.apply(context, args);
+      }
+    };
+  }
+
+  window.addEventListener('scroll', layout)
+  window.addEventListener('resize', layout)
+
+  // in case the window is scrolled already on page load (e.g. back button etc)
+  // make sure we fix the logo
+  layout()
+  setTimeout(layout, 500)
+})();
+
+;(function(){
+  var audio, autoscroll = false, ignoreNextScroll = false, lastHighlight;
+
+  async function STB_playAudioAtTimestamp(timestamp){
+    await audio.play();
+    audio.currentTime = timestamp;
+  }
+
+  function timestampToSeconds(timestampWithColons){
+    var timestamp = timestampWithColons.split(':'),
+      seconds = 
+        (parseInt(timestamp[0]) * 60 * 60) +
+        (parseInt(timestamp[1]) * 60) +
+        parseInt(timestamp[2]);
+    return seconds;
+  }
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    var index = [], indexNodes = [];
+
+    audio = document.getElementById('stb_player');
+    
+    if (!document.querySelector('.podcast-transcript')) return;   
+
+    document.querySelectorAll('.podcast-transcript a[data-timestamp]').forEach((node) => {
+      var timestamp = timestampToSeconds(node.attributes['data-timestamp'].value);
+
+      indexNodes.push(node);
+      index.push(timestamp);
+    });
+
+    window.addEventListener('scroll', (event) => {
+      if (ignoreNextScroll) {
+        ignoreNextScroll = false;
+        return;
+      }
+      autoscroll = false;
+    });
+
+    audio.addEventListener('timeupdate', (event) => {
+      // find index of currently played time (it's the one before the currentTime index)
+      var i = index.findIndex(value => value >= event.target.currentTime), 
+          parent, offset;
+      
+      if (!i) i = 0;
+      if (i>0) i--;
+      if (event.target.currentTime >= index[index.length-1])
+        i = index.length-1;
+
+      parent = indexNodes[i].parentNode;
+      if (lastHighlight == parent) return;
+
+      document.querySelectorAll('.podcast-transcript > p').forEach((node) => {
+        node.classList.remove('highlighted');
+      });
+      parent.classList.add('highlighted');
+      lastHighlight = parent;
+
+      offset = 
+        parent.offsetTop - Math.round((
+          document.querySelector('.podcast-player-wrapper').offsetHeight +
+          document.querySelector('.header').offsetHeight
+        ) * 1.075);
+
+      if (autoscroll && (window.scrollY != offset)) {
+        window.scrollTo({ top: offset });
+        ignoreNextScroll = true;
+      }
+
+      // add highlight to all follow up nodes that don't have a time index
+      while ((parent = parent.nextElementSibling) && parent && !parent.querySelector('a.time'))
+        parent.classList.add('highlighted');
+    });
+
+    document.querySelector('.podcast-transcript').addEventListener('click', (event) => {
+      var node = event.target, timestamp, audio;
+      
+      while (node && !(node.nodeName == "A") && !(node.className == "time"))
+        node = node.parentNode;
+
+      if (!node) return;
+      if (!(node.nodeName == "A")) return;
+      if (!(node.className == "time")) return;
+
+      timestamp = timestampToSeconds(node.attributes['data-timestamp'].value);
+
+      autoscroll = true;
+      ignoreNextScroll = true;
+      STB_playAudioAtTimestamp(timestamp);
+
+      event.preventDefault();
+      event.stopPropagation();
+    });
+  });
+})();
+
+
+// dev helpers
+;
+
+</script>
