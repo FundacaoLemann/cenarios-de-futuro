@@ -125,9 +125,9 @@ p {
  }
  .scrolled .header {
   transform:translate3d(0,0,10px);
-  background:#f497cf
+  background:#08314fff
  }
  _::-webkit-:host:not(:root:root),
  .scrolled .header {
-  background:rgba(233,47,159,.5)
+  background:rgba(8,49,79,.5)
  }
