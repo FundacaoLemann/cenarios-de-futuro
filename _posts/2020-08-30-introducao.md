@@ -3,7 +3,7 @@ layout: post
 title: "👉 Introdução"
 ---
 
-A Fundação Lemann identificou em 2019 a oportunidade de construir cenários de futuro para a inovação e a tecnologia na básica educação brasileira. A ideia era gerar uma ferramenta poderosa para o posicionamento estratégico da organização e de outras nesse campo.
+A Fundação Lemann identificou em 2019 a oportunidade de construir cenários de futuro para a inovação e tecnologia na educação básica brasileira. A ideia era construir uma ferramenta poderosa que auxiliasse o posicionamento e formulação de estratégias por parte de seu ecossistema de organizações parceiras. 
 
 Com o advento da pandemia de Covid-19, essa proposta focou o trabalho de construção de cenários num período mais curto, de três anos, dado o contexto de incertezas que atingiu a sociedade como um todo e a necessidade da educação brasileira recorrer a ferramentas tecnológicas para lidar com a quarentena de estudantes e professores.
 
@@ -15,7 +15,8 @@ Entre abril e maio de 2020, cada uma dessas pessoas foi entrevistada individualm
 
 Foi uma das primeiras experiências de construção de Cenários Transformadores de Futuro à distância do mundo. Todo o trabalho se desenvolveu sem qualquer reunião presencial. Recorreu-se, para isso, a duas plataformas principais de trabalho colaborativo à distância, o Zoom e o Mural.
 
-O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasil Pós Pandemia. Esperamos que esse exercício coletivo contribua para enriquecer e estimular o debate público e o planejamento de ações em diferentes lugares – das escolas e comunidades a institutos e fundações, das secretarias municipais e estaduais à sociedade em geral –, qualificando com isso a inter relação entre a educação e a tecnologia na educação básica do país.
+O resultado foram quatro Cenários Futuros para Educação e Tecnologia no Brasil Pós Pandemia. Esperamos que esse exercício coletivo contribua para enriquecer e estimular o debate público e o planejamento de ações em diferentes lugares – das escolas e comunidades a institutos e fundações, das secretarias municipais e estaduais à sociedade em geral –, qualificando com isso a inter-relação entre a educação e a tecnologia na educação básica do país.
+
 
 <br>
 <hr>
