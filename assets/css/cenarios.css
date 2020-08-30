@@ -142,7 +142,7 @@ main {
   position: relative;
 }
 main:after {
-  background: url('/assets/logo/bg.jpg') no-repeat scroll top right;
+  background: url('/cenarios-de-futuro/assets/logo/bg.jpg') no-repeat scroll top right;
   background-size: cover; 
   content: '';
   height: 100%;
