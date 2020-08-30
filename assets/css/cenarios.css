@@ -2,6 +2,9 @@ p {
     text-align: justify;
 }
 
+a:visited {
+  color: #0b0080;
+}
 
 .button {
     white-space: nowrap;
@@ -131,3 +134,21 @@ p {
  .scrolled .header {
   background:rgba(8,49,79,.5)
  }
+ 
+
+ /*decoration*/
+main {
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+main:after {
+  background: url('/assets/logo/bg.jpg') no-repeat scroll top right;
+  background-size: cover; 
+  content: '';
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
