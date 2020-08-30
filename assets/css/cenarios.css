@@ -138,7 +138,6 @@ a:visited {
 
  /*decoration*/
 main {
-  color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
 main:after {
