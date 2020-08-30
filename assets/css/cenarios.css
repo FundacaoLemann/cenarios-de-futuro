@@ -137,10 +137,7 @@ a:visited {
  
 
  /*decoration*/
-main {
-  position: relative;
-}
-main {
+/* main {
   background: url('/cenarios-de-futuro/assets/logo/bg.jpg') no-repeat scroll top right;
   background-size: cover; 
   content: '';
@@ -150,8 +147,8 @@ main {
   top: 0;
   width: 100%;
   z-index: 0;
-}
+} */
 
 .post-link {
-  color: white;
+  color: blue;
 }
